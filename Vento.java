@@ -90,10 +90,7 @@ public class Vento {
 	 * @return 
 	 */
 	public String toString() {
-		// Start of user code for method toString
-		String toString = "";
-		return toString;
-		// End of user code
+		return "Velocita: " + velocita + "; Direzione: " + direzione + "; Raffica: " + raffica;
 	}
 
 }
