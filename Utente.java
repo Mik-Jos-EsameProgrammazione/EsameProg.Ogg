@@ -38,7 +38,7 @@ public class Utente {
 	 * @return Nome 
 	 */
 	public String getNome() {
-		return this.nome;
+		return nome;
 	}
 
 	/**
