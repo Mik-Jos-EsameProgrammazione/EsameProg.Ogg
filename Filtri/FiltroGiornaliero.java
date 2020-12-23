@@ -3,7 +3,7 @@ package Filtri;
 import java.util.*;
 import MeteoDati.*;
 
-public class FiltroGiornaliero {
+public class FiltroGiornaliero implements Filtraggio{
 	protected Vector<Vento> info;
 	
 	public FiltroGiornaliero(Vector<Vento> info) {
