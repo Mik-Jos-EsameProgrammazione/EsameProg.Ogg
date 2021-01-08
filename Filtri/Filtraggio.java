@@ -1,10 +1,10 @@
-package Filtri;
+package com.esame_prog_meteo.Filtri;
 
-import MeteoDati.Vento;
+import com.esame_prog_meteo.MeteoDati.Vento;
 import java.util.Vector;
 
 /**
- * Definizione dell' interfaccia il cui metodo verr‡ definito dalle classi del package Filtri
+ * Definizione dell' interfaccia il cui metodo verr√† definito dalle classi del package Filtri
  * @author Michele Di Renzo
  * @author Joshua Ciccolini
  */
