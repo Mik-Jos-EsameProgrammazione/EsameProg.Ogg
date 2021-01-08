@@ -1,6 +1,6 @@
-package Filtri;
+package com.esame_prog_meteo.Filtri;
 
-import MeteoDati.*;
+import com.esame_prog_meteo.MeteoDati.*;
 import java.util.Vector;
 import java.util.regex.PatternSyntaxException;
 
@@ -61,7 +61,7 @@ public class FiltroPersonalizzato {
 			throw new PatternSyntaxException("Inserisci un filtro regolare", "_", -1);
 		}
 		catch (NumberFormatException e) {
-			throw new NumberFormatException("Non è possibile convertire la stringa in intero");
+			throw new NumberFormatException("Non Ã¨ possibile convertire la stringa in intero");
 		}
 		try {
 		switch(appoggioFiltro[1]) {
