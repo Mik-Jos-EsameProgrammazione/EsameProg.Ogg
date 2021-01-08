@@ -1,6 +1,6 @@
-package Statistiche;
+package com.esame_prog_meteo.statistiche;
 
-import MeteoDati.Vento;
+import com.esame_prog_meteo.MeteoDati.Vento;
 import java.util.Vector;
 import java.util.Iterator;
 import java.lang.Math;
