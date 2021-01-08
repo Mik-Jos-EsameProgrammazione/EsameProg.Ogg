@@ -1,4 +1,4 @@
-package MeteoDati;
+package com.esame_prog_meteo.MeteoDati;
 
 /**
  * Superclasse contenente i dati della risposta API
@@ -8,7 +8,7 @@ package MeteoDati;
 
 public class DatiMeteo {
 	protected String base; //parametro interno
-	protected int visibilita; //Ë un intero in metri
+	protected int visibilita; //√® un intero in metri
 	protected long dataRilevazione; //tempo in millisecondi trascorso dal 1/01/1970 alle 00:00 fino alla 
 									//data e ora della rilevazione della misura
 	protected int timezone; //Shift in seconds from UTC????
@@ -54,7 +54,7 @@ public class DatiMeteo {
 	}
 	
 	/**
-	 * @return visibilit‡
+	 * @return visibilit√†
 	 */
 
 	public int getVisibilita() {
@@ -62,7 +62,7 @@ public class DatiMeteo {
 	}
 	
 	/**
-	 * @param visibilita la nuova visibilit‡
+	 * @param visibilita la nuova visibilit√†
 	 */
 
 	public void setVisibilita(int visibilita) {
@@ -155,9 +155,9 @@ public class DatiMeteo {
 	 */
 	
 	public String toString() {
-		return ("Nome citt‡: " + nome + ", id citt‡: " + idCitta + "cod : " + cod + 
+		return ("Nome citt√†: " + nome + ", id citt√†: " + idCitta + "cod : " + cod + 
 				", timezone : " + timezone + "data rilevazione : " + dataRilevazione + 
-				", visibilit‡ : " + visibilita + ", base: " + base);
+				", visibilit√† : " + visibilita + ", base: " + base);
 	}
 }
 
