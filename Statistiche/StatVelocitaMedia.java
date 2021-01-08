@@ -1,11 +1,11 @@
-package Statistiche;
+package com.esame_prog_meteo.Statistiche;
 
-import MeteoDati.Vento;
+import com.esame_prog_meteo.MeteoDati.Vento;
 import java.util.Vector;
 import java.util.Iterator;
 
 /**
- * E' la classe che definisce il metodo per la statistica della velocit‡ media del vento
+ * E' la classe che definisce il metodo per la statistica della velocit√† media del vento
  * @author Michele Di Renzo
  * @author Joshua Ciccolini
  */
