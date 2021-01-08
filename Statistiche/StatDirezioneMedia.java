@@ -1,4 +1,4 @@
-package com.esame_prog_meteo.statistiche;
+package com.esame_prog_meteo.Statistiche;
 
 import com.esame_prog_meteo.MeteoDati.Vento;
 
