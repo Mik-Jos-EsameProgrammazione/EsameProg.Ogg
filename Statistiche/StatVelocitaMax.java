@@ -1,11 +1,11 @@
-package Statistiche;
+package com.esame_prog_meteo.statistiche;;
 
-import MeteoDati.Vento;
+import com.esame_prog_meteo.MeteoDati.Vento;
 import java.util.Vector;
 import java.util.Iterator;
 
 /**
- * E' la classe che definisce il metodo per la statistica della velocit‡ media del vento
+ * E' la classe che definisce il metodo per la statistica della velocit√† media del vento
  * @author Michele Di Renzo
  * @author Joshua Ciccolini
  */
@@ -29,7 +29,7 @@ public class StatVelocitaMax extends Statistiche implements CalcolatoreStats{
 	public float getRisStats() { 
 			Iterator<Vento> i = infoVento.iterator();
 			Vento x;
-			float velMax = 0; //il vento sar‡ sempre >=0
+			float velMax = 0; //il vento sar√† sempre >=0
 			while (i.hasNext())
 			{
 				x = i.next();
