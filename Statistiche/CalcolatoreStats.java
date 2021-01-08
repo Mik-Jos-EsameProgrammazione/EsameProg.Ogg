@@ -1,4 +1,4 @@
-package com.esame_prog_meteo.statistiche;
+package com.esame_prog_meteo.Statistiche;
 
 /**
  * Definizione dell' interfaccia il cui metodo verrà definito nelle sottoclassi della superclasse Statistiche
