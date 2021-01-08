@@ -1,12 +1,12 @@
-package Statistiche;
+package com.esame_prog_meteo.statistiche;
 
-import MeteoDati.Vento;
+import com.esame_prog_meteo.MeteoDati.Vento;
 import java.util.Vector;
 import java.util.Iterator;
 import java.lang.Math;
 
 /**
- * E' la classe che definisce il metodo per la statistica della varianza della velocit‡ del vento
+ * E' la classe che definisce il metodo per la statistica della varianza della velocit√† del vento
  * @author Michele Di Renzo
  * @author Joshua Ciccolini
  */
@@ -24,7 +24,7 @@ public class StatVarianzaVelocita extends Statistiche implements CalcolatoreStat
 	
 	/**
 	 * Definizione del metodo getRisStats per la varianza della velocita del vento
-	 * @return varianza della velocit‡
+	 * @return varianza della velocit√†
 	 */
 	
 	public float getRisStats() {
