@@ -1,6 +1,6 @@
-package Filtri;
+package com.esame_prog_meteo.Filtri;
 
-import MeteoDati.*;
+import com.esame_prog_meteo.MeteoDati.*;
 import java.util.Vector;
 
 /**
