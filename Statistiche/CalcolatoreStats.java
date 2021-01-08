@@ -1,7 +1,7 @@
-package Statistiche;
+package com.esame_prog_meteo.statistiche;
 
 /**
- * Definizione dell' interfaccia il cui metodo verr‡ definito nelle sottoclassi della superclasse Statistiche
+ * Definizione dell' interfaccia il cui metodo verr√† definito nelle sottoclassi della superclasse Statistiche
  * @author Michele Di Renzo
  * @author Joshua Ciccolini
  */
