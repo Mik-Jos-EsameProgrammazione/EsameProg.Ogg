@@ -1,4 +1,4 @@
-package MeteoDati;
+package com.esame_prog_meteo.MeteoDati;
 
 /**
  * Questa classe corrisponde all'oggetto wind della risposta API
