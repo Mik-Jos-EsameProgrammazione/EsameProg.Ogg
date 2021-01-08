@@ -1,10 +1,10 @@
-package Statistiche;
+package com.esame_prog_meteo.Statistiche;
 
-import MeteoDati.Vento;
+import com.esame_prog_meteo.MeteoDati.Vento;
 import java.util.Vector;
 
 /**
- * Superclasse che definisce statistiche, da cui erediteranno le altre più specifiche.
+ * Superclasse che definisce statistiche, da cui erediteranno le altre piÃ¹ specifiche.
  * @author Michele Di Renzo
  * @author Joshua Ciccolini
  */
