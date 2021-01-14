@@ -5,8 +5,8 @@ import java.util.*;
 
 /**
  * Classe che implementa l'interfaccia CalcolatoreStats.
- * 
- * @author joshuaciccolini
+ * @author Joshua Ciccolini
+ * @author Michele Di Renzo
  *
  */
 public class StatVarianzaDirezione implements CalcolatoreStats {
