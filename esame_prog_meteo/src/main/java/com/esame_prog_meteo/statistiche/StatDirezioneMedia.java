@@ -6,8 +6,8 @@ import com.esame_prog_meteo.model.Vento;
 import java.util.*;
 /**
  * Classe che implementa l'interfaccia CalcolatoreStats. 
- * @author joshuaciccolini
- *
+ * @author Joshua Ciccolini
+ * @author Michele Di Renzo
  */
 public class StatDirezioneMedia  implements CalcolatoreStats{
 	
