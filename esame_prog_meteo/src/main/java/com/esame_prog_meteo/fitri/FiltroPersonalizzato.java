@@ -7,11 +7,14 @@ import com.esame_prog_meteo.model.Vento;
 
  /**
  * Classe che restituisce il vettore filtrato in base ad un parametro
- * @author joshuaciccolini
- *
+ * @author Joshua Ciccolini
+ * @author Michele Di renzo
  */
 
 public class FiltroPersonalizzato {
+	/**
+	 * Vector contenente le informazioni sul vento
+	 */
 	protected Vector<Vento> info;
 
 	/**
