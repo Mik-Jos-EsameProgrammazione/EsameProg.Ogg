@@ -17,6 +17,9 @@ public class FiltroGiornaliero implements Filtraggio{
 	 * @param info
 	 */
 	public FiltroGiornaliero(Vector<Vento> info) {
+	/**
+	 * Vector contenente le informazioni sul vento
+	 */
 		this.info = info;	
 	}
 	/**
