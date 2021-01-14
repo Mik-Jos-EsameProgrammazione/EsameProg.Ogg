@@ -4,8 +4,8 @@ import java.util.Vector;
 import com.esame_prog_meteo.model.Vento;
 /**
  * Classe che restituisce il vettore filtrato mensilmente
- * @author joshuaciccolini
- *
+ * @author Joshua Ciccolini
+ * @author Michele Di renzo
  */
 public class FiltroMensile implements Filtraggio{
 	protected Vector<Vento> info;
@@ -14,6 +14,9 @@ public class FiltroMensile implements Filtraggio{
 	 * @param info
 	 */
 	public FiltroMensile(Vector<Vento> info) {
+	/**
+	 * Vector contenente le informazioni sul vento
+	 */
 		this.info = info;
 	}
 	/**
