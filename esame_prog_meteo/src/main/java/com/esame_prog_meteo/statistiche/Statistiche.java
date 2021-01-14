@@ -4,15 +4,12 @@ import com.esame_prog_meteo.model.Vento;
 import java.util.*;
 
 /**
- * Description of Statistiche.
- * 
- * @author mikdr
+ * Classe che descrive una statistica
+ * @author Joshua Ciccolini
+ * @author Michele Di Renzo
  */
 public class Statistiche {
-	/**
-	 * Description of the property infoVento.
-	 */
-	// protected Vector<Vento> infoVento;
+	
 	private String type_stat;
 	private float value;
 
@@ -20,31 +17,34 @@ public class Statistiche {
 	 * Costruttore.
 	 */
 	public Statistiche(String type_stat, float value) throws IllegalArgumentException {
-		// if(infoVento== null) throw new IllegalArgumentException("Il vettore non
-		// contiene elementi");
-		// this.infoVento = infoVento;
 		this.type_stat = type_stat;
 		this.value = value;
 	}
 
-	/*
-	 * public Vector<Vento> getInfoVento() { return infoVento; }
-	 * 
-	 * public void setInfoVento(Vector<Vento> infoVento) { this.infoVento =
-	 * infoVento; }
-	 */
+	/**
+	* @return type_stats, il tipo di statistica
+	*/
 	public String getType_stat() {
 		return type_stat;
 	}
-
+	
+	/**
+	* @param type_stat il nuovo tipo di statistica
+	*/
 	public void setType_stat(String type_stat) {
 		this.type_stat = type_stat;
 	}
-
+	
+	/**
+	* @return value, il valore della statistica
+	*/
 	public float getValue() {
 		return value;
 	}
-
+	
+	/**
+	* @param value, il nuovo valore
+	*/
 	public void setValue(float value) {
 		this.value = value;
 	}
