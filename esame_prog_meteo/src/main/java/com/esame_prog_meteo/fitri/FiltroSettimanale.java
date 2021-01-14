@@ -4,10 +4,13 @@ import java.util.Vector;
 import com.esame_prog_meteo.model.Vento;
 /**
  * Classe che restituisce il vettore filtrato settimanalmente
- * @author joshuaciccolini
- *
+ * @author Joshua Ciccolini
+ * @author Michele Di renzo
  */
 public class FiltroSettimanale implements Filtraggio{
+	/**
+	 * Vector contenente le informazioni sul vento
+	 */
 	protected Vector<Vento> info;
 
 	/**
