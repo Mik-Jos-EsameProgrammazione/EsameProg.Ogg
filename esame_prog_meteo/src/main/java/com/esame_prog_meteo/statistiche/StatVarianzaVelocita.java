@@ -1,7 +1,8 @@
 package com.esame_prog_meteo.statistiche;
 
 import com.esame_prog_meteo.model.Vento;
-import java.util.*;
+import java.util.Vector;
+import java.util.Iterator;
 /**
  * Classe che implementa l'interfaccia CalcolatoreStats. 
  * @author Joshua Ciccolini
