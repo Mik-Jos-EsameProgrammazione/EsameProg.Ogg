@@ -3,7 +3,7 @@ import com.esame_prog_meteo.model.Vento;
 
 
 
-import java.util.*;
+import java.util.Vector;
 /**
  * Classe che implementa l'interfaccia CalcolatoreStats. 
  * @author Joshua Ciccolini
