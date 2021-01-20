@@ -55,7 +55,7 @@ public class LeggiJSON {
 				 a = (JSONObject) JSONValue.parseWithException(in.nextLine());
 				 in.nextLine();
 			 	}catch(ParseException e) {
-			 		throw new NoConvertionException("Nom è stato possibile convertire la riga del file in JSONObject");
+			 		throw new NoConvertionException("Non è stato possibile convertire la riga del file in JSONObject");
 			 	}catch(IllegalStateException e ) {
 			 		throw new IllegalStateException("Lo scanner si è chiuso in modo anomalo");
 			 	}
@@ -84,7 +84,7 @@ public class LeggiJSON {
 			 	
 			b.add(a);
 		 }}catch(ParseException e) {
-			 throw new NoConvertionException("Nom è stato possibile convertire la riga del file in JSONObject");
+			 throw new NoConvertionException("Non è stato possibile convertire la riga del file in JSONObject");
 		 }catch(IllegalStateException e) {
 			 throw new IllegalStateException("Lo scanner si è chiuso in modo anomalo");
 		 }catch(IOException e) {
