@@ -20,7 +20,7 @@
 Fornisce più di venti APImeteo e ha un'abbondanza di repository su GitHub. Le API supportano più lingue, unità di misura e formati di dati.
 
 ## Obiettivo
-Tramite la lettura di un apposita **API** vengono ricercati tutti dati riguardanti il **meteo** e vengono inseriti in una specifica Data-list ogni ora. Una volta configurati i parametri necessari alla lettiura (es. nome della città, es. *APIkey*) l'applicazione tramite un collegamento via Internet effettua la lettura, elabora i dati in base alle specifiche scelte e restituisce i risultati tramite un apposito Web Service di nome *Spring Boot*. Infine, la lettura dei risultati avviene tramite una chiamata ad uno speciale indirizzo **HTTP** con il passaggio dei parametri desiderati.
+Tramite la lettura di un apposita **API** vengono ricercati tutti dati riguardanti il **meteo** e vengono inseriti in una specifica Data-list ogni ora. Una volta configurati i parametri necessari alla lettura (es. nome della città, es. *APIkey*) l'applicazione tramite un collegamento via Internet effettua la lettura, elabora i dati in base alle specifiche scelte e restituisce i risultati tramite un apposito Web Service di nome *Spring Boot*. Infine, la lettura dei risultati avviene tramite una chiamata ad uno speciale indirizzo **HTTP** con il passaggio dei parametri desiderati.
 
 
 # Realizzazione
