@@ -78,7 +78,7 @@ Queste ultime possono essere eseguite tramite un apposito Software chiamato [Pos
 ![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/ClassDiagrams/statistiche.jpg)
 
 - È il package che contiene tutte le classi utili al calcolo delle statistiche che soddisfano le richieste della consegna.
-- È presente anche un interfaccia **CalcolatoreStats** che dichiara il metodo <code> getRisStats(){. . .} </code> definito poi nelle classi **StatDirezioneMedia**, **StatVelocitaMin**, **StatVelocitaMax**,  **StatVelocitaMedia**, **StatVarianzaVelocita** e  **StatVarianzaDirezione**.
+- È presente anche un interfaccia **StatsInterface** che dichiara il metodo <code> getRisStats(){. . .} </code> definito poi nelle classi **StatDirezioneMedia**, **StatVelocitaMin**, **StatVelocitaMax**,  **StatVelocitaMedia**, **StatVarianzaVelocita** e  **StatVarianzaDirezione**.
 - Le classi appena descritte definiscono, appunto, il metodo che restituisce il valore della statistica in base al nome della classe che lo contiene (es. lo stesso metodo nella classe StatDrirezioneMedia restituisce la direzione media del vento, mentre nella classe StatVelocitaMin restituisce la velocità minima del vento).
 #### Package Exception
 ![](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/ClassDiagrams/exception.jpg?raw=true)
