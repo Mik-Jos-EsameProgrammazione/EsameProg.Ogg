@@ -29,7 +29,7 @@ public class MeteoDataBase {
 	 * @throws InvalidNameException Quando la citta o l'APIKey non contiene nessun carattere
 	 */
 	public MeteoDataBase(String city, String APIKey) throws InvalidNameException {
-	JSONTimer timer = new JSONTimer(1000, city, APIKey);
+	JSONTimer timer = new JSONTimer(3600000, city, APIKey);
 	try {
 	array = timer.schedulaArray();
 	}catch(InvalidNameException e) {
