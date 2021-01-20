@@ -359,10 +359,10 @@ Questo schema fa riferimento alla chiamata <code>GET /data</code> che restituisc
 ![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/DiagrammaSequenze/setConfiguration.png?raw=true)
 
 ### Diagramma delle sequenze che permette di impostare il filtro personalizzato
-![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/DiagrammaSequenze/setCustomFilter.png?raw=true)
+![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/DiagrammaSequenze/setCustomFilter.png?raw=true)<br>
 Questo schema fa riferimento alla chiamata <code> GET /custom_filter</code> che permette di impostare filtri con determinati periodi forniti come parametri. In questo caso viene instanizato un oggetto della classe FiltroPersonalizzato e viene usato il metodo <code> filtroPersonalizzato()</code> per ottenere un vettore filtrato in base al valore del parametro passato a questo metodo (il parametro deve essere formattato come "valore_periodo") e viene inserito in una collezione contenente tutti i dati con i filtri applicati. Ovviamente è possibile instanziare più di un filtro, questi vengono poi considerati quando vengono calcolate le statistiche.
 ### Digramma delle sequenze che permette di impostare i filtri predefiniti
-![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/DiagrammaSequenze/setFilter.png?raw=true)
+![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/DiagrammaSequenze/setFilter.png?raw=true)<br>
 Questo schema fa riferimento alla chiamata <code> GET /filter</code> che permette di impostare i filtri predefiniti. In questo caso viene richiamato il metodo ausiliario <code>instaniziateFilterClass()</code> che instanzia un oggetto della classe corrispondente al filtro passato come parametro. Utilizzano il metodo <code> filtro()</code> del nuovo oggetto si ottiene un vettore filtrato che viene inserito nella collezione che contiene i dati filtrati, ovviamente collegandoli al tipo del filtro applicato. 
 
 La chiamata <code>GET /remove_filter</code> richiama semplicemente il metodo <code>clear()</code> della collezione rimuovendo tutti i dati filtrati. In questo caso i dati verranno contrassegnati dalla chiave "No Filter" e le statistiche verranno calcolate su tutti i dati immagazzinati dall'avvio dell'applicazione.
