@@ -112,7 +112,7 @@ Chiamata da effettuare per ricevere i metadati:
 
 Risposta alla chiamata a questo indirizzo:
 
-![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/Joshua-Ciccolini-UMLScheme/other_images/metadata.png?raw=true)
+![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/Joshua-Ciccolini-UMLScheme/other_images/metadata.png?raw=true)<br>
 Oltre ad alcune informazioni relative al riconoscimento della località su cui fare le misurazioni è stato anche inserito un contatore che identifica il numero progressivo di quando viene immagazzinato il dato.
 
 ### Rotta /data
