@@ -59,7 +59,7 @@ public class ConvertiJSON {
 		macro_object = macro_object.concat(",\"clouds\":" +(obj.get("clouds").toString()));
 		macro_object = macro_object.concat(",\"sys\":" +(obj.get("sys").toString()));
 		if(obj.get("rain") !=null)macro_object = macro_object.concat(",\"rain\":" +(obj.get("rain").toString()));
-		if(obj.get("snow") !=null)macro_object = macro_object.concat(",\"rain\":" +(obj.get("rain").toString()));
+		if(obj.get("snow") !=null)macro_object = macro_object.concat(",\"snow\":" +(obj.get("snow").toString()));
 		macro_object = macro_object.concat(",\"coord\":" +(obj.get("coord").toString()));
 		
 		JSONArray a = (JSONArray) obj.get("weather");
