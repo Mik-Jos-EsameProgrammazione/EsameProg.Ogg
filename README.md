@@ -75,7 +75,7 @@ Queste ultime possono essere eseguite tramite un apposito Software chiamato [Pos
 - JSONTimer permette di effettuare le letture ogni periodo definito (esempio ogni ora).
 - JSONTimerTask è la classe che definisce le istruzioni da eseguire ogni periodo (queste istruzioni verranno poi eseguite dalla classe JSONTimer).
 #### Package Statistiche
-![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/Joshua-Ciccolini-UMLScheme/ClassDiagrams/statistiche.jpg?raw=true)
+![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/ClassDiagrams/statistiche.jpg)
 
 - È il package che contiene tutte le classi utili al calcolo delle statistiche che soddisfano le richieste della consegna.
 - È presente anche un interfaccia **CalcolatoreStats** che dichiara il metodo <code> getRisStats(){. . .} </code> definito poi nelle classi **StatDirezioneMedia**, **StatVelocitaMin**, **StatVelocitaMax**,  **StatVelocitaMedia**, **StatVarianzaVelocita** e  **StatVarianzaDirezione**.
