@@ -50,7 +50,7 @@ public class JSONTimer{
 	}
 	
 	/**
-	 * Effettua un chiamata all'API e scrive il risultato convertito in array sul file denominato nome_file
+	 * Effettua una chiamata all'API e scrive il risultato convertito in array sul file denominato nome_file
 	 * @param nome_file nome del file su cui scrivere le misurazioni
 	 * @throws InvalidNameException Quando viene passato il nome del file non valido
 	 * @throws IOException Quando non è possibile lavorare con lo stream o non è possibile creare il nuovo file
@@ -65,7 +65,7 @@ public class JSONTimer{
 	}
 	
 	/**
-	 * Effettua un chiamata all'API e restituisce il risultato convertito in JSONArray
+	 * Effettua una chiamata all'API e restituisce il risultato convertito in JSONArray
 	 * @return JSONArray Array contenente le letture aggiornandole ogni periodo
 	 */
 	public JSONArray schedulaArray(){
