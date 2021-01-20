@@ -55,10 +55,10 @@ Queste ultime possono essere eseguite tramite un apposito Software chiamato [Pos
 ![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/main/ClassDiagrams/datimeteo.jpg?raw=true)
 
 - La classe *DatiMeteo* contiene tutte le informazioni necessarie al riconoscimento della località dove avvengono le misurazioni meteo (es.  data della misura, fuso orario, nome e codice della città che viene considerata)
-- La classe vento contiene le informazioni relative al vento della determinata città (es. velocità, direzione e ipotetiche raffiche)
-- Dalla classe DatiMeteo sono stati ricavati alcuni metadati.
-- La classe Vento è quella che contiene tutte le informazioni relative alla sezione <code> "wind":. . . </code>
-- La classe MeteoDataBase è la classe che contiene tutti i dati immagazzinati dall'avvio dell'applicazione.
+- La classe *Vento* contiene le informazioni relative al vento della determinata città (es. velocità, direzione e ipotetiche raffiche)
+- Dalla classe *DatiMeteo* sono stati ricavati alcuni metadati.
+- La classe *Vento* è quella che contiene tutte le informazioni relative alla sezione <code> "wind":. . . </code>
+- La classe *MeteoDataBase* è la classe che contiene tutti i dati immagazzinati dall'avvio dell'applicazione.
 #### Package Filtri
 ![enter image description here](https://github.com/Mik-Jos-EsameProgrammazione/EsameProg.Ogg/blob/Joshua-Ciccolini-UMLScheme/ClassDiagrams/filtri.jpg?raw=true)
 
